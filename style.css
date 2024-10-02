@@ -1,0 +1,740 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  margin: 0;
+  display: flex;
+  font-family: "inter";
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #e92614;
+}
+.header_container {
+  padding: 0 80px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.359);
+}
+.header {
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  cursor: pointer;
+  padding: 0 20px;
+  height: 30px;
+}
+.logo img {
+  width: 120px;
+}
+.pages {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.pages .inthenet_shop {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 20px 20px;
+  width: 65px;
+}
+.pages .gift_certificates {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 20px 20px;
+  width: 90px;
+}
+.pages .individual_tailoring {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 20px 20px;
+  width: 120px;
+}
+.pages .stylists {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  border-right: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 28px 20px;
+}
+.location {
+  display: flex;
+}
+.location img {
+  margin-left: 20px;
+  width: 20px;
+}
+.writing_location {
+  margin-left: 10px;
+  font-size: 11px;
+}
+.writing_location p {
+  width: 250px;
+  margin: 0 0 5px 0;
+}
+.writing_location span {
+  color: #bb3024;
+  text-decoration: underline;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+.number {
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.icons img {
+  width: 25px;
+}
+/* ------------ italian_brands ------------- */
+.italian_brands {
+  display: flex;
+  justify-content: center;
+}
+.italian_brands h2 {
+  font-size: 35px;
+  width: 270px;
+  margin: 0;
+  font-weight: 200;
+}
+.brand_images {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 800px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/img/background_img.png");
+}
+.brand_writing {
+  margin-top: 165px;
+  margin-left: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.brand_writing span {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #bb3024;
+}
+.img {
+  transform: translateY(110px);
+  width: 650px;
+  height: 260px;
+  background: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  gap: 1rem;
+}
+.img img {
+  width: 200px;
+}
+.btn {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+}
+.btn span {
+  margin: 0;
+  color: #000;
+  width: 120px;
+  font-size: 10px;
+}
+.forward {
+  background: #bb3024;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px 5px #bb312425;
+}
+.forward img {
+  height: 20px;
+}
+.map {
+  margin-top: 60px;
+  width: 350px;
+}
+/* ----------- man_woman_brand ----------- */
+.man_woman_brand {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.man_brand img {
+  width: 420px;
+}
+.woman_brand img {
+  width: 434px;
+}
+/* ------------- brands ------------- */
+.brands img {
+  width: 300px;
+}
+.brands {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  max-width: 910px;
+}
+.button {
+  cursor: pointer;
+  margin: 0 auto;
+  width: 180px;
+  height: 42px;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 30px;
+}
+.certificate {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 230px;
+  background-size: cover;
+  background-image: url("assets/img/certificate_img.png");
+}
+.button_certificate {
+  margin-left: 220px;
+  cursor: pointer;
+  transform: translatey(30px);
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.circle img {
+  height: 20px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #bb3024;
+}
+/* ------------- collection ------------- */
+.collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.writing_colection {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 34rem;
+  margin-top: 50px;
+}
+.writing_colection h2 {
+  font-weight: 200;
+  font-size: 40px;
+  margin: 0;
+}
+.writing_colection span {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0;
+  font-size: 13px;
+  color: #bb3024;
+}
+.images_collection img {
+  background: #000;
+  width: 235px;
+}
+.images_collection img:hover {
+  background: #000;
+}
+.images_collection {
+  display: flex;
+  gap: 5rem;
+}
+.images_collection p {
+  width: 235px;
+  font-size: 10px;
+  text-align: center;
+}
+.images_collection p span {
+  font-weight: 600;
+}
+/* ************** stars *************** */
+.stars {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stars h2 {
+  width: 200px;
+  font-size: 40px;
+  font-weight: 200;
+}
+.img_stars {
+  display: flex;
+  gap: 2rem;
+}
+.img_stars img {
+  width: 200px;
+}
+/* --------------- perfume --------------- */
+.perfume {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+.perfume_img_left {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  width: 510px;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/img/perfume1.png");
+}
+.perfume_img_right {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-repeat: no-repeat;
+  width: 510px;
+  height: 420px;
+  background-size: cover;
+  background-image: url("assets/img/perfume2.png");
+}
+.btn_perfume1,
+.btn_perfume2 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 110px;
+  height: 35px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.btn_perfume1 {
+  margin: 50px 40px 0 0;
+  border: 1px solid white;
+  color: white;
+}
+.btn_perfume2 {
+  margin: 50px 0 0 40px;
+  border: 1px solid black;
+}
+/* --------------- order ------------------ */
+
+.order {
+  display: flex;
+  align-items: end;
+  margin: 0 auto;
+  width: 860px;
+  height: 440px;
+  background-size: cover;
+  background-image: url("assets/img/order.png");
+}
+.order_icons {
+  border: 1px solid rgba(128, 128, 128, 0.28);
+  transform: translateY(40px);
+  display: flex;
+  width: 800px;
+}
+.order_icons img {
+  margin-left: 10px;
+  width: 40px;
+}
+.costum,
+.book,
+.needle,
+.next {
+  border-left: 1px solid rgba(128, 128, 128, 0.28);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+.costum,
+.book,
+.needle {
+  background: white;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 200px;
+  color: #fff;
+  background: #bb3024;
+}
+.circle_white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+}
+.circle_white img {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.costum p,
+.book p,
+.needle p,
+.next p {
+  width: 150px;
+}
+.costum span,
+.book span,
+.needle span,
+.next span {
+  font-weight: 600;
+}
+/* --------------- footer ---------------- */
+.footer_container {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  margin-top: 80px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+.footer_pages {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.footer_pages .inthenet_shop {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 20px 20px;
+  width: 65px;
+}
+.footer_pages .gift_certificates {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 20px 20px;
+  width: 90px;
+}
+.footer_pages .individual_tailoring {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 20px 20px;
+  width: 120px;
+}
+.footer_pages .stylists {
+  border-left: 1px solid rgba(128, 128, 128, 0.359);
+  border-right: 1px solid rgba(128, 128, 128, 0.359);
+  padding: 28px 20px;
+}
+.footer_logo {
+  cursor: pointer;
+  padding: 0 20px;
+  height: 30px;
+}
+.footer_logo img {
+  width: 120px;
+}
+
+.footer_location {
+  display: flex;
+}
+.footer_location img {
+  margin-left: 20px;
+  width: 20px;
+}
+.footer_about {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+/* --------------- responsive ------------------ */
+@media screen and (max-width: 1230px) {
+  .brand_images {
+    width: 500px;
+    height: 300px;
+  }
+  .header_container,
+  .footer_container {
+    padding: 0;
+  }
+  .about,
+  .footer_about {
+    font-size: 8px;
+  }
+  .icons {
+    gap: 5px;
+    margin-top: 5px;
+  }
+  .icons img {
+    width: 17px;
+  }
+  .img {
+    transform: translateY(20px);
+    width: 350px;
+    height: 140px;
+  }
+  .img img {
+    width: 100px;
+  }
+  .brand_writing {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .italian_brands h2 {
+    width: 200px;
+    font-size: 20px;
+  }
+  .brand_writing span {
+    margin-top: 10px;
+    font-size: 8px;
+  }
+  .btn {
+    margin-top: 10px;
+    width: 130px;
+    height: 45px;
+  }
+  .forward {
+    width: 30px;
+    height: 30px;
+  }
+  .forward img {
+    width: 10px;
+    height: 10px;
+  }
+  .btn span {
+    margin: 0;
+    width: 80px;
+    font-size: 8px;
+  }
+  .map {
+    width: 270px;
+    margin-top: 20px;
+  }
+  .header,
+  .footer {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+  }
+  .pages,
+  .footer_pages {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .pages .inthenet_shop,
+  .footer_pages .inthenet_shop {
+    font-size: 10px;
+    padding: 15px 10px;
+    width: 45px;
+  }
+  .pages .gift_certificates
+  .footer_pages .gift_certificates {
+    padding: 15px 10px;
+    font-size: 10px;
+    width: 70px;
+  }
+  .pages .individual_tailoring,
+  .footer_pages .individual_tailoring {
+    padding: 15px 10px;
+    font-size: 10px;
+    width: 80px;
+  }
+  .pages .stylists,
+  .footer_pages .stylists {
+    padding: 20px 10px;
+    font-size: 10px;
+  }
+  .location img,
+  .footer_location img {
+    margin-left: 7px;
+    width: 14px;
+  }
+  .writing_location {
+    margin-left: 5px;
+    font-size: 8px;
+  }
+  .writing_location p {
+    width: 170px;
+    margin: 0 0 5px 0;
+  }
+  .man_brand img {
+    width: 320px;
+  }
+  .woman_brand img {
+    width: 334px;
+  }
+  .brands img {
+    width: 200px;
+  }
+  .brands {
+    margin: 7px auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    max-width: 610px;
+  }
+  .button {
+    margin: 0 auto;
+    width: 130px;
+    height: 35px;
+    font-size: 6px;
+    margin-bottom: 14px;
+  }
+  .certificate {
+    margin: 0 auto;
+    max-width: 700px;
+    height: 150px;
+  }
+  .button_certificate {
+    margin-left: 150px;
+    cursor: pointer;
+    transform: translatey(20px);
+    font-size: 8px;
+    width: 130px;
+    height: 40px;
+    gap: 20px;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+  }
+  .circle img {
+    height: 10px;
+  }
+  .writing_colection {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    margin-top: 30px;
+  }
+  .writing_colection h2 {
+    font-weight: 200;
+    font-size: 22px;
+    margin: 0;
+  }
+  .writing_colection span {
+    margin: 0;
+    font-size: 8px;
+  }
+  .images_collection {
+    display: flex;
+    gap: 2rem;
+  }
+  .images_collection img {
+    width: 150px;
+  }
+  .images_collection p {
+    width: 150px;
+    font-size: 8px;
+    text-align: center;
+  }
+  .stars h2 {
+    width: 120px;
+    font-size: 25px;
+  }
+  .img_stars {
+    gap: 1rem;
+  }
+  .img_stars img {
+    width: 120px;
+  }
+  .stars {
+    margin-top: 20px;
+  }
+  .perfume_img_left {
+    width: 350px;
+    height: 300px;
+  }
+  .perfume_img_right {
+    width: 350px;
+    height: 300px;
+  }
+  .btn_perfume1 {
+    margin: 40px 20px 0 0;
+  }
+  .btn_perfume2 {
+    margin: 40px 0 0 20px;
+  }
+  .btn_perfume1,
+  .btn_perfume2 {
+    border-radius: 15px;
+    width: 80px;
+    height: 27px;
+    font-size: 8px;
+    font-weight: 300;
+  }
+  .order {
+    margin: 0 auto;
+    width: 600px;
+    height: 340px;
+  }
+  .order_icons {
+    transform: translateY(40px);
+    width: 480px;
+  }
+  .costum,
+  .book,
+  .needle,
+  .next {
+    height: 80px;
+    gap: 5px;
+    font-size: 8px;
+  }
+  .costum p,
+  .book p,
+  .needle p,
+  .next p {
+    width: 110px;
+  }
+  .order_icons img {
+    margin: 0;
+    width: 30px;
+  }
+  .needle {
+    display: none;
+  }
+  .next {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  
+}
